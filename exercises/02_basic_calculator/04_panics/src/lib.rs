@@ -6,7 +6,7 @@ fn speed(start: u32, end: u32, time_elapsed: u32) -> u32 {
         time_elapsed != 0,
         "The journey took no time at all. That's impossible!"
     );
-    
+
     (end - start) / time_elapsed
 }
 
