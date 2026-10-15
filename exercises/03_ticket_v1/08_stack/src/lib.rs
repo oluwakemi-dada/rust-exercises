@@ -6,7 +6,6 @@ mod tests {
 
     #[test]
     fn u16_size() {
-
         assert_eq!(size_of::<u16>(), 2);
     }
 
