@@ -70,7 +70,10 @@ impl Order {
 
     // Validations
     fn validate_product_name(product_name: &str) {
-        assert!(!product_name.trim().is_empty(), "The product name can't be empty");
+        assert!(
+            !product_name.trim().is_empty(),
+            "The product name can't be empty"
+        );
         assert!(
             product_name.len() <= 300,
             "The product name can't be longer than 300 bytes"
