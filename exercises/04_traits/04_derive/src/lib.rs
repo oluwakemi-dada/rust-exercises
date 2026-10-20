@@ -15,8 +15,6 @@ struct Ticket {
     status: String,
 }
 
-
-
 #[cfg(test)]
 mod tests {
     use super::*;
