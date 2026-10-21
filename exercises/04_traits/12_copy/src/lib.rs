@@ -22,7 +22,6 @@ impl Add for WrappingU32 {
     }
 }
 
-
 #[cfg(test)]
 mod tests {
     use super::*;
