@@ -37,6 +37,7 @@ impl Ticket {
             status,
         }
     }
+
     pub fn assigned_to(&self) -> &str {
         match &self.status {
             Status::InProgress { assigned_to } => assigned_to.as_str(),
