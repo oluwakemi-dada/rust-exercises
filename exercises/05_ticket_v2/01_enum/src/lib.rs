@@ -15,10 +15,8 @@ enum Status {
     // TODO: add the missing variants
     ToDo,
     InProgress,
-    Done
+    Done,
 }
-
-
 
 impl Ticket {
     pub fn new(title: String, description: String, status: Status) -> Ticket {

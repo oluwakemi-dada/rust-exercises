@@ -14,7 +14,7 @@ impl Shape {
             Self::Square => 4,
             Self::Rectangle => 4,
             Self::Triangle => 3,
-            Self::Pentagon => 5
+            Self::Pentagon => 5,
         }
     }
 }

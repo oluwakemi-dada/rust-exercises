@@ -13,7 +13,6 @@ impl Shape {
         } else {
             panic!("Not a circle");
         }
-
     }
 }
 
